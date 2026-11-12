@@ -1,0 +1,16 @@
+{
+  "name": "electric-guitar-designer",
+  "productName": "Electric Guitar Designer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Design an electric guitar concept with three body shapes, custom finishes, pickup layouts, hardware, and PNG export.",
+  "main": "main.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "test": "electron . --verify --disable-gpu"
+  },
+  "devDependencies": {
+    "electron": "45.3.0"
+  }
+}
